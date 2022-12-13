@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/*  
+   v0.1 | 20110126
+   License: none (public domain)
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}

@@ -5,12 +5,7 @@
   byline: 100designer
 */
 
-/*pretendard 가변 다이나믹 서브셋*/
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css');
-
-@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css');
-
-/* A안 */
+/* A안 CSS Variables */
 :root {
   /*main*/
   --color-main01: #6eab8d;
@@ -65,13 +60,13 @@
   /* annimation */
   --animation-duration: 300ms;
 
-  /* font-size */
-  --h1-font-size: ;
-  --h2-font-size: ;
-  --h3-font-size: ;
-  --h4-font-size: ;
-  --h5-font-size: ;
-  --h6-font-size: ;
+  /* H font-size */
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 2rem;
+  --h3-font-size: 1.75rem;
+  --h4-font-size: 1.5rem;
+  --h5-font-size: 1.375rem;
+  --h6-font-size: 1.125rem;
 }
 
 /* B안 */
@@ -97,11 +92,13 @@
   --button-St01-BG: transparent; /**/
   --button-St02-BG: #2a353e; /**/
   --button-St03-BG: linear-gradient(135deg, rgba(148, 198, 98, 1) 0%, rgba(116, 188, 119, 1) 50%, rgba(92, 179, 142, 1) 100%); /**/
+  --button-St04-BG: transparent;
 
   /* button-color */
   --button-St01-color: #2a353e;
   --button-St02-color: #fff;
   --button-St03-color: #fff;
+  --button-St04-color: #5f957f;
 
   /* border-radius */
   --border-radius-St01: 0% 15% 15% 15%;
@@ -112,6 +109,7 @@
   --border-St01-color: #dadade;
   --border-St02-color: #58b092;
   --border-St03-color: #83d372;
+  --border-St04-color: #58b092;
 
   /* button-font-size */
   --button-font: 0.7rem;

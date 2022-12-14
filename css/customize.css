@@ -5,6 +5,12 @@
   byline: 100designer
 */
 
+/*font-family*/
+/*pretendard 가변 다이나믹 서브셋*/
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css');
+
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css');
+
 * {
   box-sizing: border-box;
   margin: 0;

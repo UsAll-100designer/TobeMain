@@ -16,10 +16,22 @@ html {
   font-smoothing: antialiased;
 }
 
-/*Font-size Root*/
+/*Font-size + font-family Root*/
 html,
 body {
   font-size: 16px;
+  font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo',
+    'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+}
+
+/*h1~h6*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'NanumSquareAc', sans-serif;
 }
 
 /* Medium (641px to 1007px) */

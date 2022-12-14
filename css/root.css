@@ -24,45 +24,38 @@
   --color-text06: #7e7e7e;
 
   /* button-BGcolor */
-  --button-St01-BG: #ffffff; /**/
-  --button-St02-BG: #06a59a; /**/
-  --button-St03-BG: #ddf1ed; /**/
-  --button-St04-BG: #ffe1e3; /**/
+  --button-St01-BG: #59b193; /**/
+  --button-St02-BG: transparent; /**/
+  --button-St03-BG: transparent; /**/
 
   /* button-color */
-  --button-St01-color: #06a59a;
-  --button-St02-color: #ffffff;
-  --button-St03-color: #38827b;
-  --button-St04-color: #fb6b6b;
+  --button-St01-color: #fff;
+  --button-St02-color: #fff;
+  --button-St03-color: #fff;
 
   /* border-radius */
   --border-radius-St01: 0% 15% 15% 15%;
 
+  --border-radius-St02: 0% 50% 50% 15%;
+
   /* border-color */
-  --border-St01-color: #ccd1e1;
-  --border-St02-color: #2b6d66;
-  --border-St03-color: #06a59a;
-  --border-St04-color: #fb6b6b;
+  --border-St01-color: #58b092;
+  --border-St02-color: #58b092;
+  --border-St03-color: #83d372;
 
   /* label-BGcolor */
-  --label-St01-BG: ;
-  --label-St02-BG: ;
+  --label-St01-BG: #59b193;
+  --label-St02-BG: #ffffff;
 
   /* label-color */
-  --label-St01-color: ;
-  --label-St02-color: ;
+  --label-St01-color: #fff;
+  --label-St02-color: #1a1b1e;
 
   /* button-font-size */
   --button-font: 0.7rem;
 
   /* button-padding */
   --button-padding: 5px 5px 5px 5px;
-
-  /* button-radious */
-  --button-radius: 5px;
-
-  /* button-border */
-  --button-border: 1px solid #06a59a;
 
   /* annimation */
   --animation-duration: 300ms;
@@ -88,22 +81,24 @@
   --color-text06: #96999d;
 
   /* button-BGcolor */
-  --button-default-BG: #ffffff;
-  --button-primary-BG: #06a59a;
-  --button-secondary-BG: #ddf1ed;
-  --button-negative-BG: #ffe1e3;
+  --button-St01-BG: transparent; /**/
+  --button-St02-BG: #2a353e; /**/
+  --button-St03-BG: linear-gradient(135deg, rgba(148, 198, 98, 1) 0%, rgba(116, 188, 119, 1) 50%, rgba(92, 179, 142, 1) 100%); /**/
 
   /* button-color */
-  --button-default-color: #06a59a;
-  --button-primary-color: #ffffff;
-  --button-secondary-color: #38827b;
-  --button-negative-color: #fb6b6b;
+  --button-St01-color: #2a353e;
+  --button-St02-color: #fff;
+  --button-St03-color: #fff;
+
+  /* border-radius */
+  --border-radius-St01: 0% 15% 15% 15%;
+
+  --border-radius-St02: 0% 50% 50% 15%;
 
   /* border-color */
-  --border-default-color: #ccd1e1;
-  --border-primary-color: #2b6d66;
-  --border-secondary-color: #06a59a;
-  --border-negative-color: #fb6b6b;
+  --border-St01-color: #dadade;
+  --border-St02-color: #58b092;
+  --border-St03-color: #83d372;
 
   /* button-font-size */
   --button-font: 0.7rem;

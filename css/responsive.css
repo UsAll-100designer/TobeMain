@@ -4,3 +4,11 @@
    v0.1 | 20231213
   byline: 100designer
 */
+
+/* Medium (641px to 1007px) */
+@media (max-width: 1007px) {
+}
+
+/* Small (smaller than 640px) */
+@media (max-width: 640px) {
+}

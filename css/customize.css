@@ -15,3 +15,25 @@ html {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }
+
+/*Font-size Root*/
+html,
+body {
+  font-size: 16px;
+}
+
+/* Medium (641px to 1007px) */
+@media (max-width: 1007px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Small (smaller than 640px) */
+@media (max-width: 640px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}

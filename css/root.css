@@ -24,22 +24,33 @@
   --color-text06: #7e7e7e;
 
   /* button-BGcolor */
-  --button-default-BG: #ffffff;
-  --button-primary-BG: #06a59a;
-  --button-secondary-BG: #ddf1ed;
-  --button-negative-BG: #ffe1e3;
+  --button-St01-BG: #ffffff; /**/
+  --button-St02-BG: #06a59a; /**/
+  --button-St03-BG: #ddf1ed; /**/
+  --button-St04-BG: #ffe1e3; /**/
 
   /* button-color */
-  --button-default-color: #06a59a;
-  --button-primary-color: #ffffff;
-  --button-secondary-color: #38827b;
-  --button-negative-color: #fb6b6b;
+  --button-St01-color: #06a59a;
+  --button-St02-color: #ffffff;
+  --button-St03-color: #38827b;
+  --button-St04-color: #fb6b6b;
+
+  /* border-radius */
+  --border-radius-St01: 0% 15% 15% 15%;
 
   /* border-color */
-  --border-default-color: #ccd1e1;
-  --border-primary-color: #2b6d66;
-  --border-secondary-color: #06a59a;
-  --border-negative-color: #fb6b6b;
+  --border-St01-color: #ccd1e1;
+  --border-St02-color: #2b6d66;
+  --border-St03-color: #06a59a;
+  --border-St04-color: #fb6b6b;
+
+  /* label-BGcolor */
+  --label-St01-BG: ;
+  --label-St02-BG: ;
+
+  /* label-color */
+  --label-St01-color: ;
+  --label-St02-color: ;
 
   /* button-font-size */
   --button-font: 0.7rem;
